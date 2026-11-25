@@ -5,7 +5,7 @@
   "description": "Why oil puddles make rainbows: vertical science short built with Remotion + Three.js",
   "scripts": {
     "dev": "remotion studio",
-    "build": "remotion render OilPuddleRainbow out/oil-puddle-rainbow.mp4 --gl=angle --concurrency=2",
+    "build": "remotion render OilPuddleRainbow out/oil-puddle-rainbow.mp4 --gl=swangle --concurrency=2",
     "still": "remotion still OilPuddleRainbow out/frame.png --frame=0 --gl=angle",
     "lint": "tsc --noEmit"
   },
